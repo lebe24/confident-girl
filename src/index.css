@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glass{
+    
+    border: 1px solid rgba(255, 255, 255, 0.78);
+    background: radial-gradient(100% 416.44% at 0% 5.25%, rgba(255, 249, 249, 0.444) 0%, rgba(255, 255, 255, 0.06) 100%);
+    box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
+  /* Note: backdrop-filter has minimal browser support */
+    border-radius: 9px;
+    /* transform: translate(180px); */
+    overflow: hidden;
+}
